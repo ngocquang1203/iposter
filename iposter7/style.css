@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto;
+    font-size: 14px;
+    width: 320px;
+    height: 500px;
+    background-color: #ffffff;
+    margin: 0px auto;
+
+    box-sizing: border-box;
+}
+
+#banner {
+    width: 320px;
+    height: 180px;
+}
+
+#main .card {
+    border: 1px solid #e7e7e7;
+    width: 180px;
+    height: 280px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    background: white;
+    padding: 10px;
+}
+
+#main .card img {
+    width: 170px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+#main .card p {
+    margin-bottom: 5px;
+}
+
+#main .card h3 {
+    color: crimson;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#main .discount {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    padding: 10px;
+    background: red;
+    color: white;
+    font-weight: 900;
+}
+
+
+#main {
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    border: 1px solid #d1d1d1;
+    background: #f1f1f1;
+}
+
+#main .footer-main {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 27px;
+}
+
+#main .text-1{
+    color: #FC7A07;
+}
+
+#main .text-2{
+    color: #504d4b;
+}
+
+#main .text-3{
+    color: #626262;
+}
+
+#main .text-4{
+    color: #099939;
+}
